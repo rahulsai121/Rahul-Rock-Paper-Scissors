@@ -67,14 +67,11 @@ function playGame(playerMove){
    
 }
 
-
-
 function updateScoreElement() {
         document.querySelector('.js-score').innerHTML
         =`Wins:${score.wins}, Loses:${score.loses},
          Tie:${score.ties}`;
      }
-
 
 function pickComputerMove(){
     const randomNum=Math.random();
